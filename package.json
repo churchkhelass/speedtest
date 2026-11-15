@@ -1,0 +1,16 @@
+{
+  "name": "speedtest-cli",
+  "version": "1.0.0",
+  "description": "Консольная проверка скорости скачивания",
+  "main": "speedtest.js",
+  "bin": {
+    "speedtest": "./speedtest.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node speedtest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
